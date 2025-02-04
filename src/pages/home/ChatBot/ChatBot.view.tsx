@@ -2,12 +2,11 @@ import { MoreOutlined, SendOutlined } from "@ant-design/icons";
 import { Avatar, Input, Layout, Rate, Tooltip } from "antd";
 import { useContext } from "react";
 import { Helmet } from "react-helmet-async";
-import { chatbotNilson } from "../../../assets";
+// import chatbotNilson from "../../../assets/chatbot_nilson.png";
 import SiderBar from "../../components/siderbar/SiderBar";
 import { ChatBotContext } from "./ChatBot";
 import { IChatBotViewProps } from "./ChatBot.model";
 import { ChatContent, ChatFooter, ChatHeader, ChatInfo, ChatItem, Container, Message, SidebarHeader, StyledSider } from "./ChatBot.style";
-
 export default function ChatBotView({
   handleSendMessage,
   handleStarRating,
@@ -38,7 +37,7 @@ export default function ChatBotView({
           </SidebarHeader>
 
           <ChatItem>
-            <Avatar className="avatar" src={chatbotNilson} />
+            <Avatar className="avatar" icon={"C"} />
             <ChatInfo>
               <strong>ChatNilson</strong>
               <span>Óla , eu sou o ChatNilson...</span>
@@ -48,7 +47,7 @@ export default function ChatBotView({
 
         <Layout>
           <ChatHeader>
-            <Avatar className="avatar" src={chatbotNilson} />
+            <Avatar className="avatar" icon={"C"} />
             <span className="avatar-text">ChatNilson</span>
           </ChatHeader>
 

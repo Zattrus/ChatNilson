@@ -1,4 +1,10 @@
 {
+  "compilerOptions": {
+    "typeRoots": [
+      "./node_modules/@types",
+      "./path/to/project"
+    ]
+  },
   "files": [],
   "references": [
     {

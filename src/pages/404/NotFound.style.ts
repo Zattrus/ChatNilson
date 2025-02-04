@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { notFoundGif } from "../../assets";
+// import { notFoundGif } from "../../assets";
 
 const Container = styled.div`
   display: flex;
@@ -23,7 +23,6 @@ const Container = styled.div`
           text-align: center;
 
           .four_zero_four_bg {
-            background-image: url(${notFoundGif});
             height: 400px;
             background-position: center;
             min-width: 700px;
